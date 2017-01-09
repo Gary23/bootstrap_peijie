@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>bootstrap练习</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<!--顶部导航部分-->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<!--.logo是自已定义的class名，最好不要直接修改bootstrap的class里的值，-->
+					<a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="" /></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!--collapse navbar-collapse的作用是屏幕小于768时隐藏导航-->
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right nav-margin">
+						<li class="active">
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a>
+						</li>
+						<li>
+							<a href="information.html"><span class="glyphicon glyphicon-list"></span> 资讯</a>
+						</li>
+						<li>
+							<a href="case.html"><span class="glyphicon glyphicon-fire"></span> 案例</a>
+						</li>
+						<li>
+							<a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--轮播图部分-->
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" style="background: #223240;">
+					<img src="img/slide1.png" alt="" />
+				</div>
+				<div class="item" style="background: #F5E4DC;">
+					<img src="img/slide2.png" alt="" />
+				</div>
+				<div class="item" style="background: #DE2A2D;">
+					<img src="img/slide3.png" alt="" />
+				</div>
+			</div>
+			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#myCarousel" data-slide="next" class="carousel-control right">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+
+		<!--内容部分-->
+		<div class="items1">
+			<div class="container">
+				<h2 class="items1-header">「为什么选择培杰企业培训」</h2>
+				<p class="items1-content">强大的师资力量，完美的实战型管理课程，让您的企业实现质的腾飞！</p>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 item1">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab1-1.png" class="media-object" /></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">课程内容</h4>
+								<p class="del">其他：高效不知名的讲师编写，没有任何实战价值的教材!</p>
+								<p>我们：知名企业家、管理学大师联合编写的具有实现性教材！</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 item1">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab1-2.png" class="media-object" /></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">师资力量</h4>
+								<p class="del">其他：非欧美王牌大学毕业的、业界没有知名度的讲师！</p>
+								<p>我们：美国哈佛、耶鲁等世界一流高校、享有声誉的名牌专家！</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 item1">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab1-3.png" class="media-object" /></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">课程安排</h4>
+								<p class="del">其他：无法保证上课效率、没有时间表，任务无法完成！</p>
+								<p>我们：保证按时间表上课、效率高、当天的任务当天完成！</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 item1">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab1-4.png" class="media-object" /></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">服务团队</h4>
+								<p class="del">其他：社会招聘的、服务水平参差不齐的普通员工！</p>
+								<p>我们：内部培养、经受过良好高端服务培训的高标准员工！</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="items2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 items2-img">
+						<img src="img/tab2.png" class="auto img-responsive center-block" />
+					</div>
+					<div class="text col-sm-6 items2-content">
+						<h3>强大的学习体系</h3>
+						<p>经过管理学大师层层把关、让您的企业突飞猛进</p> 
+						<p>四大学习体系:新人系、专业系、管理系以及在线学习平台。</p>
+						<p>引入哈佛商学院(HBR)的案例教学法(CASE STUDY METHOD)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="items3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<img src="img/tab3.png" class="auto img-responsive center-block" />
+					</div>
+					<div class="col-md-6 col-sm-6 text">
+						<h3>完美的管理方式</h3>
+						<p>最新的管理培训方案，让您的企业赶超同行</p> 	
+						<p>提供企业定制培训，一对一培训，以及小班培训</p>
+						<p>服务遍及科研单位、教育学院、金融银行、石油化工、it等各个行业</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--底部-->
+		<div class="footer">
+			<div class="container">
+				<p>企业培训 | 合作事宜 | 版权投诉</p>
+				<p>京ICP 备12345678. (c) Copyright 2016 ypj. All Rights Reserved. </p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="js/bootstrap.min.js">
+		</script>
+		<script type="text/javascript">
+//			轮播图自动播放
+			$('#myCarousel').carousel({
+				interval: 3000,
+			})
+			
+//			随时让items2的文字保持垂直居中，
+//          由于访问网站时打开图片需要一个缓冲时间，导致刚打开网页图片的高度无法获取，文字和图片会重叠，所以让window加载完毕后再执行获取高度命令。
+//			$(window).load(function(){
+//				$('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+//			})
+//			$(window).resize(function(){
+//				$('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+//			})
+//			$(window).load(function(){
+//				$('.text').eq(1).css('margin-top', ($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 + 'px');
+//			})
+//			$(window).resize(function(){
+//				$('.text').eq(1).css('margin-top', ($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 + 'px');
+//			})
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>bootstrap练习</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<!--顶部导航部分-->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<!--.logo是自已定义的class名，最好不要直接修改bootstrap的class里的值，-->
+					<a href="index.html" class="navbar-brand logo"><img src="img/logo.png" alt="" /></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!--collapse navbar-collapse的作用是屏幕小于768时隐藏导航-->
+				<div class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right nav-margin">
+						<li>
+							<a href="index.html"><span class="glyphicon glyphicon-home"></span> 首页</a>
+						</li>
+						<li class="active">
+							<a href="information.html"><span class="glyphicon glyphicon-list"></span> 资讯</a>
+						</li>
+						<li>
+							<a href="case.html"><span class="glyphicon glyphicon-fire"></span> 案例</a>
+						</li>
+						<li>
+							<a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> 关于</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--标题背景部分-->
+		<div class="jumbotron" id="jumbotron">
+			<div class="container">
+				<div>
+					<h1>资讯</h1>
+					<h4>企业内训的最新动态、资源等</h4>
+				</div>
+			</div>
+		</div>
+		<!--主体内容部分-->
+		<div id="information">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="container-fluid" style="padding: 0;">
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5 ">
+										<img src="img/info1.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7 ">
+										<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">TVOS2.0是在TVOS1.0与华为MediaOS及阿里巴巴YunOS融合的基础上，打造的新一代智能电视操作系统。华为主要承担开发工作，内置的电视购物商城由阿里方面负责</p>
+										<p class="content-date">ypj 2017年1月24日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info2.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>这些技术趋势将影响内容营销行业2017年走势</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">内容营销行业正在迅猛发展。生产出一些平淡无奇的内容然后抱着听天由命的想法将它抛出去，这种做法已经不再被任何一家想要保持竞争优势的公司所能接受。</p>
+										<p class="content-date">TNW中文站 2017年1月22日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info3.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>CES发布会再生变数 法拉第未来痛失两位高管</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">已经处在风雨飘摇中的电动车厂商法拉第未来再次遭受暴击，今天该公司两位高管宣布离职，而现在离它们在CES上的发布会仅剩几天时间了。</p>
+										<p class="content-date">BI中文站 2017年1月18日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info4.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>今年是亚马逊的突破之年 AWS已成长为公司支柱之一</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">腾讯科技讯 据外媒报道，2016年是亚马逊云服务AWS取得巨大突破的一年，华尔街认为明年AWS的业绩将站上新的高峰。</p>
+										<p class="content-date">ypj 2017年1月15日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info5.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>科学家用创新方法获得大脑工作高清图像</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">精心排列的激光、镜面和光学设备让研究人员以更创新的方式探索大脑。成像的力量确实能够看到细胞，从而基于大脑解剖结构绘制它们。</p>
+										<p class="content-date">科学网 2017年1月14日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info6.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>万科股权战出口渐明 华润成大股东中主要产业资本</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">刚刚宣布暂时终止与深圳地铁的合作，关于宝能系转让万科（000002.SZ）的市场传言，再次搅动股权新一轮博弈。</p>
+										<p class="content-date">华夏时报 2017年1月14日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info7.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>微软刘铁岩：对偶学习推动人工智能的新浪潮</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">TVOS2.0是在TVOS1.0与华为MediaOS及阿里巴巴YunOS融合的基础上，打造的新一代智能电视操作系统。</p>
+										<p class="content-date">头条 2017年1月13日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info8.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>如果公司文化不好，那一定是创始人出了问题</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">你想在自己的公司建立怎样的企业文化？你能想象自己的言行举止其实对企业文化至关重要么？Larry Kim在本文中剖析了在建立企业文化过程中公司创始人的作用。</p>
+										<p class="content-date">36氪 2017年1月11日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info9.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>光有秘书还不够？高管需要这些高科技助手</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">无论是在洛杉矶和出资的合伙人开会，还是系紧安全带准备飞越大西洋，以下五大科技利器都是我的好帮手</p>
+										<p class="content-date">财富网 2017年1月09日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info10.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>调查称互联网行业大学毕业生工作3年薪资翻番</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">第三方数据调查机构麦可思发布的一份调查报告显示，毕业半年后从事互联网/IT行业类的2015届本科毕业生，月收入为5034元，高出全国平均水平近千元。</p>
+										<p class="content-date">新闻网 2017年1月08日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info11.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>资深分析师预测2017年科技趋势：AR将比VR更重要</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">硅谷市场研究公司总裁、资深行业顾问兼分析师蒂姆·巴加林近日在《时代》网站发表文章，给出其对2017年科技行业的五大趋势和议题的预测。</p>
+										<p class="content-date">网易科技 2017年1月05日</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row info-content">
+									<div class="col-md-5 col-sm-5 col-xs-5">
+										<img src="img/info12.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>O2O虽不是实体经济的救世主，却也不是昙花一现</h4>
+										<p class="hidden-xs" style="text-indent: 2em;">从衣食住行到教育、汽车、家政、社区，你能想到的生活方式，都在被O 2O改变和重建。</p>
+										<p class="content-date">南方都市报 2017年1月03日</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+					<div class="col-md-4 hidden-xs hidden-sm info-right">
+						<blockquote>
+							<h2>热门资讯</h2>
+						</blockquote>
+						<div class="container-fluid">
+							<a href="#">
+								<div class="row">
+									<div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0 ; padding: 0;">
+										<img src="img/info1.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+										<p>ypj 1/24/2017</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row">
+									<div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0 ; padding: 0;">
+										<img src="img/info2.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>些技术趋势将影响内容营销行业2017年走势</h4>
+										<p>TNW中文站 1/22/2017</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row">
+									<div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0 ; padding: 0;">
+										<img src="img/info6.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>万科股权战出口渐明 华润成大股东中主要产业资本</h4>
+										<p>华夏时报 1/14/2017</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row">
+									<div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0 ; padding: 0;">
+										<img src="img/info9.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>光有秘书还不够？高管需要这些高科技助手</h4>
+										<p>财富网 1/19/2017</p>
+									</div>
+								</div>
+							</a>
+							<a href="#">
+								<div class="row">
+									<div class="col-md-5 col-sm-5 col-xs-5" style="margin: 12px 0 ; padding: 0;">
+										<img src="img/info12.jpg" class="img-responsive" />
+									</div>
+									<div class="col-md-7 col-sm-7 col-xs-7">
+										<h4>O2O虽不是实体经济的救世主，却也不是昙花一现</h4>
+										<p>南方都市报 1/03/2017</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div class="footer">
+			<div class="container">
+				<p>企业培训 | 合作事宜 | 版权投诉</p>
+				<p>京ICP 备12345678. (c) Copyright 2016 ypj. All Rights Reserved. </p>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js">
+		</script>
+		<script type="text/javascript" src="js/bootstrap.min.js">
+		</script>
+		<script type="text/javascript">
+			$(function() {
+				$('.content-date').parent().css('height', $('.info-content div img').eq(0).height() + 'px');
+				$('.info-content div img').each(function(index) {
+					$('.content-date').parent().eq(index).css('height', $(this).height() + 'px');
+					$('.content-date').parent().css('margin-top', '10px');
+				})
+			})
+//			$(window).load(function() {
+//				$('.content-date').parent().css('height', $('.info-content div img').eq(0).height() + 'px');
+//				$('.info-content div img').each(function(index) {
+//					$('.content-date').parent().eq(index).css('height', $(this).height() + 'px');
+//					$('.content-date').parent().css('margin-top', '10px');
+//				})
+//			})
+			$(window).resize(function() {
+				$('.info-content div img').each(function(index) {
+					$('.content-date').parent().eq(index).css('height', $(this).height() + 'px');
+					$('.content-date').parent().css('margin-top', '10px');
+				})
+			})
+		</script>
+	</body>
+
+</html>

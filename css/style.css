@@ -1,0 +1,355 @@
+a {
+	color: #333333;
+}
+a:hover {
+	color: #333333;
+}
+a:visited {
+	color: #333333;
+}
+
+/*导航部分*/
+
+.logo {
+	padding: 0px;
+}
+
+#navbar-collapse ul {
+	margin-top: 0;
+}
+
+
+/*--------------------------------------------------index.html--------------------------------------------*/
+
+/*轮播图部分*/
+
+#myCarousel {
+	margin-top: 50px;
+}
+
+#myCarousel img {
+	margin: 0 auto;
+}
+
+
+/*主体上半部分*/
+
+.items1 {
+	margin: 30px 0;
+	color: #666;
+}
+
+.items1-header {
+	font-size: 20px;
+	text-align: center;
+	/*letter-spacing是每个字之间的距离*/
+	letter-spacing: 1px;
+	color: #0059B2;
+}
+
+.items1-content {
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #999;
+	margin: 20px 0 40px 0;
+}
+
+.items1 .media-body,
+.items1 .media-left {
+	vertical-align: middle;
+	font-size: 13px;
+}
+
+.items1 .media-body p {
+	margin: 0;
+}
+
+.items1 .item1 {
+	padding: 20px;
+}
+
+.items1 .del {
+	color: #999999;
+	text-decoration: line-through;
+}
+
+/*主体下半部分*/
+.items2 {
+	background-color: #EEEEEE;
+}
+.items2,.items3 {
+	padding: 60px 20px;
+	text-align: center;
+}
+.items2 .row img {
+	width: 40%;
+	height: 40%;
+}
+.items3 .row img {
+	width: 65%;
+	height: 65%;
+}
+.items2 .text h3,.items3 .text h3 {
+	font-size: 20px;
+}
+.items2 .text p,.items3 .text p {
+	font-size: 14px;
+}
+
+
+/*--------------------------------------------------information.html--------------------------------------------*/
+
+/*页面的标题背景*/
+#jumbotron {
+	background-image: url(../img/bg.jpg);
+	margin: 50px 0 0;
+	color: #CCCCCC;
+}
+
+#jumbotron h1 {
+	font-size: 26px;
+	padding: 0 0 0 20px;
+}
+#jumbotron h4 {
+	font-size: 15px;
+	padding: 0 0 0 20px;
+}
+/*主体部分*/
+#information {
+	background-color: #EEEEEE;
+	padding: 40px 0;
+}
+/*主体左半部分*/
+.info-content {
+	background-color: #FFFFFF;
+	margin: 0 0 20px 0;
+	box-shadow: 4px 4px 5px #CCCCCC;
+}
+.info-content img{
+	margin: 12px 0;
+}
+.info-content h4{
+	color: #333333;
+	padding: 2px 0 0 0;
+	font-size: 12px;
+	margin-bottom: 15px;
+	margin: 0 0 10px 0;
+	
+}
+.info-content p {
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.6;
+}
+.info-content .content-date {
+	font-size: 10px;
+}
+.info-content .content-date {
+	position: absolute;
+	bottom: 0;
+}
+
+/*主体右半部分*/
+.info-right {
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px 5px #CCCCCC;
+}
+.info-right blockquote {
+	margin: 0;
+	padding: 0;
+}
+.info-right h2 {
+	font-size: 20px;
+	color: #333333;
+	padding: 5px;
+}
+/*--------------------------------------------------case.html--------------------------------------------*/
+/*页面主体部分*/
+.case {
+	padding: 40px 0;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+.case h4 {
+	color: #666666;
+}
+.case p {
+	color: #666666;
+	line-height: 1.6;
+}
+/*--------------------------------------------------about.html--------------------------------------------*/
+#about {
+	background-color: #EEEEEE;
+	padding: 40px 15px;
+}
+#about a{
+	color: #0059B2;
+}
+#about .about {
+	background-color: #FFFFFF;
+	box-shadow: 4px 4px 5px #CCCCCC;
+}
+#about h3 {
+	color: #333333;
+	font-size: 18px;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 20px 0;
+	margin: 0 0 10px 0;
+}
+#about p {
+	line-height: 2;
+	font-size: 13px;
+}
+
+
+/*底部*/
+.footer {
+	background-color: #666666;
+	border-top: 1px solid #CCCCCC;
+	padding: 20px;
+	text-align: center;
+	color: #EEEEEE;
+}
+
+
+/*平板设备，大于等于768px*/
+
+@media only screen and (min-width: 768px) {
+	.items1-header {
+		font-size: 26px;
+	}
+	.items1-content {
+		font-size: 17px;
+	}
+	.items2-content {
+		float: left;	
+	}	
+	.items2 .items2-img {
+		float: right;
+	}
+	.items2 .text h3,.items3 .text h3 {
+		font-size: 22px;
+	}
+	.items2 .text p,.items3 .text p {
+		font-size: 15px;
+	}
+	#jumbotron h1 {
+		font-size: 28px;
+		padding: 0 0 0 20px;
+	}
+	#jumbotron h4 {
+		font-size: 16px;
+		padding: 0 0 0 20px;
+	}
+	.info-content h4{
+		font-size: 16px;
+		overflow: hidden;
+		/*多余的文本显示为...*/
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.info-content p,.info-content .content-date {
+		font-size: 14px;
+	}
+
+}
+
+
+/*桌面显示器,大于等于992px*/
+
+@media only screen and (min-width: 992px) {
+	.items1-header {
+		font-size: 28px;
+	}
+	.items1-content {
+		font-size: 19px;
+	}
+	.items1 .media-body p {
+		margin: 0 0 10px;
+		font-size: 14px;
+	}
+	.items2 .text h3,.items3 .text h3 {
+		font-size: 24px;
+	}
+	.items2 .text p,.items3 .text p {
+		font-size: 16px;
+	}
+	#jumbotron h1 {
+		font-size: 30px;
+		padding: 0 0 0 20px;
+	}
+	#jumbotron h4 {
+		font-size: 17px;
+		padding: 0 0 0 20px;
+	}
+	.info-content h4{
+		font-size: 18px;
+		overflow: hidden;
+		/*多余的文本显示为...*/
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}	
+	.info-right h4 {
+		color: #333333;
+		font-size: 13px;
+		/*margin: 0;*/
+		padding: 2px 0 0 0;
+		line-height: 1.6;	
+		overflow: hidden;
+		white-space:pre-line;
+		text-overflow: ellipsis;
+	}
+	.info-right p {
+		font-size: 13px;
+	}
+}
+
+
+/*桌面显示器,大于等于1200px*/
+
+@media only screen and (min-width: 1200px) {
+	.items1-header {
+		font-size: 30px;
+	}
+	.items1-content {
+		font-size: 21px;
+	}
+	.items1 .media-body p {
+		margin: 0 0 10px;
+		font-size: 16px;
+	}
+	.items2 .text h3,.items3 .text h3 {
+		font-size: 26px;
+	}
+	.items2 .text p,.items3 .text p {
+		font-size: 18px;
+	}
+	#jumbotron h1 {
+		font-size: 32px;
+		padding: 0 0 0 20px;
+	}
+	#jumbotron h4 {
+		font-size: 19px;
+		padding: 0 0 0 20px;
+	}
+	.info-content h4{
+		font-size: 20px;
+		overflow: hidden;
+		/*多余的文本显示为...*/
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	.info-right h4 {
+		color: #333333;
+		font-size: 16px;
+		padding: 2px 0 0 0;
+		line-height: 1.6;
+		overflow:visible;
+		white-space: normal;
+		text-overflow:clip;
+	}
+	.info-right p {
+		font-size: 14px;
+	}
+}
